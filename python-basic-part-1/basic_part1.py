@@ -61,3 +61,23 @@ Area = 3.8013271108436504
 from math import pi
 r = float(input("Input the radius of the circle:"))
 print("The area of the circle with radius {} is {}".format(str(r), str(pi * r**2)))
+
+
+
+# 5. Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.
+
+# way 1:
+def name():
+      fn = input("Input your first name: ")
+      ln = input("Input your last name: ")
+      print("Hello {} {}".format(ln, fn))
+
+name()
+
+# way 2:
+def name_2():
+      fn = input("Input your first name: ")
+      ln = input("Input your last name: ")
+      print("Hello " + ln + " " + fn)
+
+name_2()
