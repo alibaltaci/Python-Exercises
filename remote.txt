@@ -1,0 +1,2 @@
+git remote add origin https://github.com/alibaltaci/Python-Exercises.git
+git branch -M origin master
