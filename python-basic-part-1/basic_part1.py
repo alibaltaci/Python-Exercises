@@ -32,3 +32,18 @@ print("Python Version")
 print(sys.version)
 print("\nVersion info")
 print(sys.version_info)
+
+
+
+# 3. Write a Python program to display the current date and time.
+
+"""
+Sample Output :
+Current date and time :
+2014-07-05 14:34:14
+"""
+
+import datetime
+now = datetime.datetime.now()
+print("Current date time:")
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
