@@ -22,3 +22,13 @@ Twinkle, twinkle, little star,
 print("Twinkle, twinkle, little star, \n\t\tHow I wonder what you are!\n\t\t\t\tHow I wonder what you are!"
       "\n\t\t\t\tLike a diamond in the sky.\nTwinkle, twinkle, little star,\n\t\tHow I wonder what you are")
 
+
+
+
+# 2. Write a Python program to get the Python version you are using.
+
+import sys
+print("Python Version")
+print(sys.version)
+print("\nVersion info")
+print(sys.version_info)
