@@ -98,3 +98,16 @@ list = values.split(",")
 tuple = tuple(list)
 print("List: ", list)
 print("Tuple: ", tuple)
+
+
+
+# 7. Write a Python program to accept a filename from the user and print the extension of that.
+
+"""
+Sample filename : abc.java
+Output : java
+"""
+
+filename = input("Input the filename: ")
+filename_ext = filename.split(".")
+print("The extension of the file is: " + repr(filename_ext[-1]))
