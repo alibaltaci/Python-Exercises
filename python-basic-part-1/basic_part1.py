@@ -151,3 +151,16 @@ n1 = int("%s" % n)
 n2 = int("%s%s" % (n,n))
 n3 = int("%s%s%s" % (n,n,n))
 print("Result for the number {}: {}".format(n, (n1+n2+n3)))
+
+
+
+# 11. Write a Python program to print the documents (syntax, description etc.) of Python built-in function(s).
+
+"""
+# Sample function : abs()
+# Expected Result :
+# abs(number) -> number
+# Return the absolute value of the argument.
+"""
+
+print(abs.__doc__)
