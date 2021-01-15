@@ -175,3 +175,9 @@ import calendar
 y = int(input("Input the year: "))
 m = int(input("Input the month: "))
 print(calendar.month(y, m))
+
+def calen(y, m):
+      import calendar
+      print(calendar.month(y, m))
+
+calen(1995, 1)
