@@ -223,3 +223,11 @@ month = int(input('Enter a month'))
 day = int(input('Enter a day'))
 date1 = datetime.date(year, month, day)
 """
+
+
+
+# 15. Write a Python program to get the volume of a sphere with radius 6.
+
+from math import pi
+r=6.0
+print("The volume of the sphere is: {}".format(4.0/3.0 * pi * r**3))
