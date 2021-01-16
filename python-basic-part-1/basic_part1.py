@@ -231,3 +231,17 @@ date1 = datetime.date(year, month, day)
 from math import pi
 r=6.0
 print("The volume of the sphere is: {}".format(4.0/3.0 * pi * r**3))
+
+
+
+# 16. Write a Python program to get the difference between a given number
+# and 17, if the number is greater than 17 return double the absolute difference.
+
+def difference(n):
+      if n <= 17:
+            print("17 - {} = {}".format(n, 17-n))
+      else:
+            print("{} - 17 x 2 = {}".format(n, n - 17 * 2))
+
+difference(45)
+difference(3)
