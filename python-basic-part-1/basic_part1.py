@@ -256,3 +256,17 @@ print(near_thousand(1000))
 print(near_thousand(900))
 print(near_thousand(800))
 print(near_thousand(2200))
+
+
+
+# 18. Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.
+
+def sum_thrice(X,Y,Z):
+      sum = X+Y+Z
+      if X==Y==Z:
+            sum = sum * 3
+      return sum
+
+sum_thrice(2,6,9)
+
+sum_thrice(6,6,6)
