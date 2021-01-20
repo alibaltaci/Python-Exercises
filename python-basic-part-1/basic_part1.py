@@ -284,3 +284,15 @@ def new_string(str):
 new_string("Ispython")
 
 new_string("git")
+
+
+
+# 20. Write a Python program to get a string which is n (non-negative integer) copies of a given string.
+
+def larger_string(str, n):
+      result = ""
+      for i in range(n):
+            result = result + str
+      return result
+
+larger_string("AI", 5)
